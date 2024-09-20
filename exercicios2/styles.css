@@ -1,64 +1,65 @@
-*{
-    background-color: rgb(0,206,209);
+* {
+    background-color: rgb(0, 206, 209);
 }
 
-.container{
+
+.container {
     height: 100%;
 }
 
-.nav{
+.nav {
     display: flex;
     height: 100px;
     padding-bottom: 20px;
     padding-top: 80px;
 }
 
-.primeiro-bloco{
-    background-color: rgb(0,139,139);
+.primeiro-bloco {
+    background-color: rgb(0, 139, 139);
     width: 33.3%;
     margin-right: 12px;
     border-radius: 10px;
 }
 
-.segundo-bloco{
-    background-color: rgb(64,224,208);
+.segundo-bloco {
+    background-color: rgb(64, 224, 208);
     width: 66.6%;
     border-radius: 10px;
 }
 
-.main{
+.main {
     display: flex;
     height: 350px;
     gap: 10px;
     padding-bottom: 20px;
 }
 
-.terceiro-bloco{
-    background-color: rgb(32,178,170);
+.terceiro-bloco {
+    background-color: rgb(32, 178, 170);
     width: 33.3%;
     border-radius: 10px;
 }
 
-.quarto-bloco{
-    background-color: rgb(0,128,128);
+.quarto-bloco {
+    background-color: rgb(0, 128, 128);
     width: 32.3%;
     border-radius: 10px;
 }
 
-.quinto-bloco{
-    background-color: rgb(72,209,204);
+.quinto-bloco {
+    background-color: rgb(72, 209, 204);
     width: 33.3%;
     border-radius: 10px;
 }
 
-.footer{
+.footer {
     display: flex;
     height: 150px;
     width: 100%;
 }
 
-.sexto-bloco{
-    background-color: rgb(127,255,212);
+.sexto-bloco {
+    background-color: rgb(127, 255, 212);
     height: 100px;
     border-radius: 10px;
 }
