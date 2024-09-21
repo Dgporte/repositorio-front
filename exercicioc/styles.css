@@ -1,0 +1,53 @@
+*{
+    background-color: aqua;
+    margin: 0%;
+    box-sizing: border-box;
+    padding: 0%;
+}
+
+.container {
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.topo {
+    background-color: green;
+    height: 3rem;
+}
+
+.aside {
+    background-color: navy;
+    height: 100%;
+    width: 20%;
+    display: inline-block;
+
+}
+
+.aside2 {
+    background-color: navy;
+    height: 100%;
+    width: 20%;
+    display: inline-block;
+
+}
+
+.corpo {
+    display: flex;
+    height: 90vh;
+}
+
+.main {
+    background-color: red;
+    justify-content: center;
+    display: inline-block;
+    height: 100%;
+    width: 80%;
+}
+
+.rodape {
+    background-color: green;
+    height: 3.6rem;
+}
