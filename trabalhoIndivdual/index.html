@@ -1,63 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Portel Games</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+      <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+    </svg>
+  <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="styles.css">
+  <title>Portel Games</title>
 </head>
 
 <body>
-    <header class="cabecalho">
-        <div class="logoInicial">
-            <h1>Portel Games</h1>
-        </div>
-        <div class="nav">
-            <h2>Sites</h2>
-            <h2>Sobre</h2>
-            <h2>Newsletter</h2>
-        </div>
+
+    <header class="cabecalho" id="1">
+      <div class="logoInicial" >
+        <h1>Portel Games</h1>
+      </div>
+      <div class="logoPrincipal">
+        <a href="#1" class="minhaLogo">
+          <img src="./assets/img/logo.png" alt="Imagem 1">
+        </a>
+      </div>
+      <div class="nav">
+        <a href="#2">
+          <h2 class="navLogo">Sites</h2>
+        </a>
+        <a href="#3">
+          <h2 class="navLogo">Sobre</h2>
+        </a>
+        <a href="#4">
+          <h2 class="navLogo">Newsletter</h2>
+        </a>
+        
+      </div>
     </header>
+  </div>
+  <div>
     <main class="conteudo">
-        <div class="tituloNoticias">
-            <h2>
-                Principais canais de jogos em um só lugar!
-            </h2>
+      <div class="tituloNoticias">
+        <h2>
+          Principais canais de jogos em um só lugar!
+        </h2>
+      </div>
+      <div>
+        <h3 class="sobreSite">
+          Aqui você encontra os principais sites,<br> sobre jogos.
+        </h3>
+        <div class="tituloSites">
+          <h2 id="2">Sites</h2>
         </div>
-        <div>
-            <h3 class="sobreSite">
-                Aqui você encontra os principais sites,<br> sobre jogos.
-            </h3>
+        <div class="traco"></div>
+      </div>
+      <div class="opcoesSites">
+        <p class="imagensSites">
+          <img src="./assets/img/retrogames.jpeg" alt="Imagem 1">
+          Confira a maior loja de jogos retros.
+          <a href="https://gameficjogos.com.br" class="myButton">Confira!</a>
+        </p>
+        <p class="imagensSites">
+          <img src="./assets/img/esports.png" alt="Imagem 2">
+          Confira as últimas notícias de Esports.
+          <a href="https://flowgames.gg/categorias/esports/" class="myButton">Confira!</a>
+        </p>
+        <p class="imagensSites">
+          <img src="./assets/img/newsgames.jpg" alt="Imagem 3">
+          Confira as últimas notícias do mundo dos games.
+          <a href="https://br.ign.com" class="myButton">Confira!</a>
+        </p>
+        <p class="imagensSites">
+          <img src="./assets/img/pcgamer.jpg" alt="Imagem 4">
+          Confira a maior loja de Hardware do Brasil.
+          <a href="https://www.pichau.com.br" class="myButton">Confira!</a>
+        </p>
+        <p class="imagensSites">
+          <img src="./assets/img/jogos.jpg" alt="Imagem 5">
+          Confira os últimos jogos lançados.
+          <a href="https://flowgames.gg/categorias/games/" class="myButton">Confira!</a>
+        </p>
+        <p class="imagensSites">
+          <img src="./assets/img/residentevil.jpg" alt="Imagem 6">
+          Confira as últimas notícias do mundo de Resident Evil.
+          <a href="https://residentevil.com.br" class="myButton">Confira!</a>
+        </p>
+      </div>
+      <div class="descricaoMe">
+        <div class="tituloSites2">
+          <h2 id="3">Sobre o desenvolvedor</h2>
         </div>
-        <div class="opcoesSites">
-            <div class="navSites">
-              <img src="imagem1.jpg" alt="Imagem 1">
-              <p>Texto 1</p>
-            </div>
-            <div class="navSites">
-              <img src="imagem2.jpg" alt="Imagem 2">
-              <p>Texto 2</p>
-            </div>
-            <div class="navSites">
-              <img src="imagem3.jpg" alt="Imagem 3">
-              <p>Texto 3</p>
-            </div>
-            <div class="navSites">
-              <img src="imagem4.jpg" alt="Imagem 4">
-              <p>Texto 4</p>
-            </div>
-            <div class="navSites">
-              <img src="imagem5.jpg" alt="Imagem 5">
-              <p>Texto 5</p>
-            </div>
-            <div class="navSites">
-              <img src="imagem6.jpg" alt="Imagem 6">
-              <p>Texto 6</p>
-            </div>
+        <div class="traco2"></div>
+        <div class="textoImagem">
+          <img src="./assets/img/minhafoto.jpeg" alt="Imagem 5">
+          <p>Sou desenvolvedor full stack, atualmente cursando engenharia de software. Além de habilidades técnicas em
+            desenvolvimento front-end e back-end, possuo fortes soft skills, como comunicação, colaboração e resolução
+            de problemas. Essas habilidades me ajudam a trabalhar bem em equipe e a lidar com desafios de forma eficaz,
+            garantindo que os projetos sejam entregues com qualidade e eficiência. Estou sempre buscando melhorar, tanto
+            em termos de habilidades técnicas quanto interpessoais.</p>
           </div>
-          
-    </main>
+      </div>
+      <div class="assine">
+        <div class="tituloForm">
+          <h2 id="4">Portel Games</h2>
+        </div>
+        <div class="traco3"></div>
+        
+        <div class="textAssine">
+          <h1>Assine a Portel Games e fique por dentro das novidades!</h1>
+        </div>
+        <div class="form">
+          <form action="/enviar" method="post">
+            <label for="nome"></label><br>
+            <input type="text" id="nome" name="nome" placeholder="Nome" required><br><br>
+            
+            <label for="email"></label><br>
+            <input type="email" id="email" name="email" placeholder="Email" required><br><br>
+            
+            <input type="submit" value="Enviar">
+          </div>
+          <footer class="footer">
+          <div class="redesSocias">
+          <a href="#">
+            <i class="bi bi-linkedin"></i>
+          </a>
+          </div>
+        </footer>
+        </main>
+
 </body>
 
 </html>
